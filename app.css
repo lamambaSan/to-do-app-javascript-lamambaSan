@@ -1,0 +1,101 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	border: none;
+
+}
+html{
+	border: none;
+}
+body{
+	background: black;
+}
+#instruction p, #instruction h2{
+	color:#00FF41;
+	padding: 5px;
+	text-align: center;
+}
+.offset{
+	height: 20%
+}
+#mainContainer{
+	margin: auto;
+	height: 98vh;
+	width: 98vw;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+#interface{
+	box-shadow: 0 0 50px #003B00;
+	overflow: hidden;
+	width: 400px;
+	height: 700px;
+	margin: auto;
+	display: grid;
+	grid-template-rows: 1fr 1fr 20fr;
+	border-radius: 20px;
+	border: none;
+}
+#infoZone{
+	padding: 10px;
+	text-align: center;
+	color: #00FF41;
+	border-top: 1px solid #003B00;
+	border-bottom: 1px solid #003B00;
+}
+#interface:hover{
+	box-shadow: 0 0 100px #00FF41;
+	transition: 2s;
+}
+#inputZone{
+	min-height: 150px;
+	background-color:black;
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+}
+#newInput{
+	background: black;
+	color: #00FF41;
+	border:none;
+	padding: 10px;
+	font-size: 18px;
+}
+#submitBtn{
+	background: #003B00;
+	color: black;
+	font-size: 18px;
+}
+#submitBtn:hover{
+	background: #00FF41;
+	transition: 1s;
+}
+#displayZone{
+
+	display: flex;
+	flex-direction: column;
+
+
+}
+.element{
+	font-size: 16px;
+	background: black;
+	color: #008F11;
+	padding: 10px;
+	text-align: left;
+	height: 50px;
+	border: none;
+	border-bottom:1px solid #003B00;
+}
+.finished{
+	background: #008F11;
+	text-decoration: line-through;
+	color: black;
+}
+.animate:hover{
+	color: #00FF41;
+
+	transform: translateX(20px);
+	transition: 0.5s;
+}

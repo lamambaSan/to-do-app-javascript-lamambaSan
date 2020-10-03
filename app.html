@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+	<div id="mainContainer">
+		<div id="instruction">
+			<div class="offset"></div>
+			<div class="innerCont">
+				<h2> TO DO APP WITH JAVASCRIPT </h2>
+				<p> START BY INSERTING 10 TASKS </p>
+				<p> YOU CAN ONLY INSERT 10 TASK TO DO </p>
+				<p> FINISH ALL 10 TASKS AND BE HAPPY WITH YOURSELF </p>
+				<p> CLICK ON ANY TASK TO MARK IT AS FINISHED</p>
+			</div>
+
+		</div>
+		<div id="interface">
+			<div id="inputZone">
+				<input type="text" name="newToDO" id="newInput" onfocus="clearThis()" placeholder="write your to-do list here...">
+				<input type="button" name="submitBtn" id="submitBtn" value=">" onclick="addToDo()">
+			</div>
+			<div id="infoZone">
+				TO DO LIST : DO  10 PRODUCTIVE THINGS
+			</div>
+			<div id="displayZone">
+				
+			</div>
+
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
